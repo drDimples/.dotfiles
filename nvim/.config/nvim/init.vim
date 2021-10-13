@@ -11,7 +11,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'mbbill/undotree'
 Plug 'preservim/nerdtree'
-Plug 'https://github.com/powerline/powerline.git'
+Plug 'itchyny/lightline.vim'
 
 call plug#end()
 
