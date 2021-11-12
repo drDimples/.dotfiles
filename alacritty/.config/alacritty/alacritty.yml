@@ -1,0 +1,8 @@
+import:
+        - $HOME/.config/alacritty/dracula.yml
+
+font:
+        normal:
+                family: Fira Code
+
+background_opacity: 0.7

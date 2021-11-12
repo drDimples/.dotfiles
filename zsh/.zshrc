@@ -35,3 +35,5 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
+
+eval $(keychain --eval --agents ssh --quick --quiet)
