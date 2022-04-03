@@ -12,8 +12,7 @@ alias hs="history | grep"
 alias pingme="ping -c 3 8.8.8.8"
 alias agu="sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get dist-upgrade -y"
 alias yeet="rm -rf"
-alias kode="$HOME/kode"
-alias dotfiles="$HOME/dotfiles"
+alias dotfiles="$HOME/.dotfiles"
 alias music="ncmpcpp"
 
 # git
@@ -25,13 +24,14 @@ export KEYTIMEOUT=1
 
 export ZSH="$HOME/.oh-my-zsh"
 
-ZSH_THEME="half-life"
+ZSH_THEME="gnzh"
 
 plugins=(
 	zsh-autosuggestions
-	tmux
 	git
+	ssh-agent
 	vi-mode
 )
 
+zstyle :omz:plugins:ssh-agent agent-forwarding yes
 source $ZSH/oh-my-zsh.sh
