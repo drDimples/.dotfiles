@@ -1,0 +1,8 @@
+! Xft
+Xft.dpi: 96
+
+! URxvt
+*.scrollBar: false
+*.font: xft:Fira Code:size=10
+*.background: black
+*.foreground: white
